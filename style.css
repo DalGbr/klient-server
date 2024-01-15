@@ -1,0 +1,109 @@
+
+/* The first drop-down menu */
+#regionsList {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    list-style: circle; 
+    padding: 0; 
+    margin-bottom: 20px; 
+    border: 1px solid;
+    max-height: 200px; 
+    overflow-y: auto; 
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#regionsList li {
+    padding: 8px 12px; 
+    border-bottom: 1px solid #ddd; 
+    cursor: pointer; 
+}
+
+#regionsList li:hover {
+    background-color: #e0e0e0; 
+}
+
+/* The first button container */
+.button-container {
+    display: flex;           
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+.long-button {
+    flex: 1;                      
+    padding: 10px 20px;  
+}
+
+.long-button:hover {
+    color: black;
+    background-color: gray;
+}
+
+#search-button1 {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#reset {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#search-button2 {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+/* The second drop-down menu */
+#stopsList {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    list-style: circle; 
+    padding: 0; 
+    margin-bottom: 20px; 
+    border: 1px solid;
+    max-height: 200px; 
+    overflow-y: auto; 
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#stopsList li {
+    padding: 8px 12px; 
+    border-bottom: 1px solid #ddd; 
+    cursor: pointer; 
+}
+
+#stopsList li:hover {
+    background-color: #e0e0e0; 
+}
+
+/*For buttons with bus number*/
+#left {
+    width: 600px; 
+    float: left;
+    border-style: solid;
+    border-color: #9FA6B2;
+}
+
+/*For containers with bus times*/
+#right {
+    margin-left: 620px;
+    border-style: solid;
+    border-color: #9FA6B2;
+}
+
+#result {
+    width: 100%;
+    overflow: hidden;
+}
